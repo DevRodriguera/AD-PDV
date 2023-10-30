@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --background-color: #e5e6f0;
+    --bg-blur: #4A507D;
+
+    --button-submit: #7780C9;
+    --button-submit-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* border: black solid 1px; */
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.app {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gp-label {
+    width: 350px;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+
+.gp-label label {
+    /* position: absolute;
+    bottom: 3px;
+    left: 0; */
+}
+
+.gp-label input {
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid cornflowerblue;
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 2px solid cornflowerblue;
+}
+
+input:focus~label {
+    transform: translateY(-35px);
+    font-size: 12px;
+    color: cornflowerblue;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-submit {}
+
+.btn-cancel {}
+
+.gp-button {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.dark-theme,
+.dark-theme a {
+    background-color: #333;
+    color: #fff;
+}

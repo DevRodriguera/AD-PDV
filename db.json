@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "usuario": "Rodrigo Souza",
+      "id": 1
+    },
+    {
+      "usuario": "Carol Fogaça",
+      "id": 2
+    }
+  ],
+  "user": [
+    {
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Developement"
+    }
+  ]
+}

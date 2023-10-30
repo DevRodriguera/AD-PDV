@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-blur);
+    padding: 10px;
+    width: 100vw;
+    gap: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+a {
+    color: white;
+}
